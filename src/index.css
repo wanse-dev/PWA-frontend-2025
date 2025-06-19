@@ -7,3 +7,9 @@ body {
   place-content: center;
   min-height: 100vh;
 }
+
+.WhoToFollow {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
