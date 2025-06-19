@@ -1,9 +1,13 @@
-import { WhoToFollow } from './components/WhoToFollow';
-import './App.css';
+import { RightPanel } from './components/RightPanel';
+import './index.css';
 
 function App() {
   return (
-    <WhoToFollow />
+    <>
+      <div className='test'></div>
+      <div className='test'></div>
+      <RightPanel />
+    </>
   )
 }
 

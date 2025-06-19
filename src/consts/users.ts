@@ -6,7 +6,7 @@ export const users = [
     },
     {
         userName: 'wanse',
-        name: 'Juan Sebastián Tolarovic',
+        name: 'Juanse Tolarovic',
         isFollowing: false
     },
     {
@@ -17,6 +17,6 @@ export const users = [
     {
         userName: 'pepito',
         name: 'Pepito J.',
-        isFollowing: false
+        isFollowing: true
     }
 ]
