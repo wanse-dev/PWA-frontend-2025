@@ -1,7 +1,10 @@
+import { TwitterFollowCard } from './components/TwitterFollowCard.tsx';
 import './App.css'
 
 function App() {
-  return <h1>Hola mundo</h1>
+  return (
+    <TwitterFollowCard />
+  )
 }
 
 export default App
