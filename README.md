@@ -1,1 +1,1 @@
-
+Proyecto basado en los [TwitterFollowCard](https://github.com/midudev/aprendiendo-react/tree/master/projects/01-twitter-follow-card) que hizo midudev a modo de tutorial. El objetivo es hacer un clon del feed de Twitter poniendo en práctica todo lo que vamos haciendo en clases.
