@@ -1,0 +1,38 @@
+.tw-trendingCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #fff;
+  font-size: .8rem;
+  
+  min-width: 320px;
+}
+
+.tw-trendingCard-header {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 4px;
+}
+
+.tw-trendingCard-topic {
+  color: #aaa;
+}
+
+.tw-trendingCard-title {
+  font-size: 1rem;
+}
+
+.tw-trendingCard-posts {
+  color: #aaa;
+}
+
+.tw-trendingCard-options {
+  user-select: none;
+  color: #aaa;
+  font-size: 20px;
+}
+.tw-trendingCard-options:hover {
+  opacity: .8;
+}

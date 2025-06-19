@@ -8,15 +8,15 @@ interface TwitterFollowCardProps {
 }
 
 export function TwitterFollowCard (props:TwitterFollowCardProps) {
-  const [isFollowing, setIsFollowing] = useState(props.initialIsFollowing)
+  const [isFollowing, setIsFollowing] = useState(props.initialIsFollowing);
 
-  const text = isFollowing ? 'Following' : 'Follow'
+  const text = isFollowing ? 'Following' : 'Follow';
   const buttonClassName = isFollowing
     ? 'tw-followCard-button is-following'
-    : 'tw-followCard-button'
+    : 'tw-followCard-button';
 
   const handleClick = () => {
-    setIsFollowing(!isFollowing)
+    setIsFollowing(!isFollowing);
   }
  return (
     <article className='tw-followCard'>
