@@ -1,5 +1,5 @@
 import { TwitterTrendingCard } from './TwitterTrendingCard.tsx';
-import { trendings } from '../consts/trendings.ts';
+import { trendings } from '../../consts/trendings.ts';
 import './WhatsHappening.css';
 
 export const WhatsHappening = () => {

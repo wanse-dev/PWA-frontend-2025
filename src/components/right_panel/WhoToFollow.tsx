@@ -1,5 +1,5 @@
 import { TwitterFollowCard } from './TwitterFollowCard.tsx';
-import { users } from '../consts/users.ts';
+import { users } from '../../consts/users.ts';
 import './WhoToFollow.css';
 
 export const WhoToFollow = () => {

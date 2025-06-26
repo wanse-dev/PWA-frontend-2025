@@ -1,4 +1,4 @@
-import { RightPanel } from './components/RightPanel';
+import { RightPanel } from './components/right_panel/RightPanel';
 import './index.css';
 
 function App() {
