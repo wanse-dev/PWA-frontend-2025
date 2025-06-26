@@ -2,6 +2,8 @@
   min-height: 575px;
   font-size: larger;
   font-weight: 400;
+
+  user-select: none;
 }
 
 ul {
@@ -12,27 +14,19 @@ ul {
 }
 ul li {
   list-style: none;
-  padding: .5rem 1rem;
-  margin: .25rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0;
 
   max-width: fit-content;
 
   border-radius: 2rem;
 }
-ul li:hover{
+ul li:hover {
   background-color: #222;
   cursor: pointer;
 }
 ul li:last-child {
-  margin-top: 1.5rem;
-  padding: 0;
-  background-color: inherit;
-}
-a {
-  margin: 0;
-}
-.tw-post-btn {
-  padding: 0.8rem 6rem;
+ padding: 0.8rem 6rem;
 
   background-color: #ececec;
   color: #000;
@@ -41,7 +35,7 @@ a {
 
   border-radius: 2rem;
 }
-.tw-post-btn:hover {
+ul li:last-child:hover {
   background-color: #d4d4d4e3;
   color: #000;
   transition: 0.3s;
