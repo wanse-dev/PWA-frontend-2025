@@ -1,0 +1,40 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 65px;
+  margin-bottom: 1rem;
+
+  user-select: none;
+}
+.tw-profile {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  color: #fff;
+  font-size: 1rem;
+}
+
+.tw-profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-profile-infoUserName {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.tw-profile-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+  margin-right: 0.5rem;
+}
+
+.tw-profile-options {
+  font-size: 1.6rem;
+  margin: 0 1rem 1rem 0;
+}

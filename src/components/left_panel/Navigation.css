@@ -1,0 +1,38 @@
+.tw-navigation {
+  min-height: 575px;
+  font-size: larger;
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  list-style: none;
+  margin: 0.75rem 0;
+  padding: 0;
+}
+ul li:last-child {
+  margin-top: 1.5rem;
+}
+a {
+  margin: 0;
+}
+.tw-post-btn {
+  padding: 0.8rem 6rem;
+
+  background-color: #ececec;
+  color: #000;
+  font-size: large;
+  font-weight: 700;
+
+  border-radius: 2rem;
+}
+.tw-post-btn:hover {
+  background-color: #d4d4d4e3;
+  color: #000;
+  transition: 0.3s;
+}

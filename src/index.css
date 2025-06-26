@@ -5,18 +5,18 @@
 
 body {
   margin: 0;
-  background: #111;
+  background: #090909;
   color: #eee;
   font-family: system-ui;
 }
 
 #root {
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   justify-content: space-between;
 
   min-height: 100vh;
-  margin: 0 3rem;
+  margin: 0 9rem;
 }
 
 .test {
