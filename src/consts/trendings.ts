@@ -1,6 +1,6 @@
 export const trendings = [
     {
-        title: '#MessiVuelveANewells',
+        title: '#Messi',
         topic: 'sports',
         posts: 12258
     },
